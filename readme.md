@@ -4,3 +4,5 @@
 <a href="https://reactrouter.com/docs/en/v6/getting-started/installation">React Router</a><br>
 <a href="https://react-query.tanstack.com">React Query</a><br>
 <a href="https://react-bootstrap.github.io/components/alerts/">React Bootstrap</a><br>
+<a href="https://icons.getbootstrap.com">Bootstrap Icons</a><br>
+
