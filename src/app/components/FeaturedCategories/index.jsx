@@ -13,7 +13,7 @@ const FeaturedCategories = () => {
                     <Col key={idx}>
                         <Card>
                             <Card.Body className='text-center'>
-                                <i className={category.icon}></i>
+                                <i className={category.icon} style={{ fontSize: '24px' }}></i>
                                 <Card.Title className="mt-2" style={{ fontSize: '14px' }}>{category.name}</Card.Title>
                                 <Link to={category.slug}>Visit</Link>
                             </Card.Body>
