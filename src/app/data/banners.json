@@ -1,0 +1,35 @@
+{
+    "banners": [
+        {
+            "id": 15,
+            "name": "Banner 1",
+            "content": "First Banner",
+            "images": {
+                "desktop": "https://via.placeholder.com/1200x500",
+                "mobile": "https://via.placeholder.com/500x300"
+            },
+            "link": "/"
+        },
+        {
+            "id": 16,
+            "name": "Banner 2",
+            "content": "Second Banner",
+            "images": {
+                "desktop": "https://via.placeholder.com/1200x500",
+                "mobile": "https://via.placeholder.com/500x300"
+            },
+            "link": "/"
+        },
+        {
+            "id": 17,
+            "name": "Banner 3",
+            "content": "Third Banner",
+            "images": {
+                "desktop": "https://via.placeholder.com/1200x500",
+                "mobile": "https://via.placeholder.com/500x300"
+            },
+            "link": "/"
+        }
+    ],
+    "isSuccess": true
+}

@@ -1,5 +1,12 @@
 import productData from '../data/products.json'
 import categoryData from '../data/categories.json'
+import bannerData from '../data/banners.json'
+
+export const getBanners = () => {
+    if (bannerData.isSuccess)
+        return bannerData.banners;
+    return null
+}
 
 export const getCategories = () => {
     if (categoryData.isSuccess)
