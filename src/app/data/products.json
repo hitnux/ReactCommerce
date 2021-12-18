@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop",
+            "slug": "/product/laptop-1",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "images": [
+                {
+                    "id": 110,
+                    "path": "https://via.placeholder.com/150",
+                    "isDefault": true
+                }
+            ],
+            "categoryId": 3,
+            "prices": {
+                "salesPrice": 9999.99
+            }
+        },
+        {
+            "id": 2,
+            "name": "Laptop 2",
+            "slug": "/product/laptop-2",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "images": [
+                {
+                    "id": 110,
+                    "path": "https://via.placeholder.com/150",
+                    "isDefault": true
+                }
+            ],
+            "categoryId": 3,
+            "prices": {
+                "salesPrice": 9997.99
+            }
+        }
+    ],
+    "isSuccess": true
+}
