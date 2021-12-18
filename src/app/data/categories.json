@@ -1,10 +1,24 @@
 {
     "categories": [
         {
+            "id": 1,
+            "name": "Music Players",
+            "slug": "/store/musicplayers",
+            "icon": "bi bi-music-player",
+            "featured": false
+        },
+        {
+            "id": 2,
+            "name": "Projectors",
+            "slug": "/store/projectors",
+            "icon": "bi bi-projector",
+            "featured": false
+        },
+        {
             "id": 3,
             "name": "Phones",
             "slug": "/store/phones",
-            "icon": "bi bi-telephone",
+            "icon": "bi bi-phone",
             "featured": true
         },
         {
