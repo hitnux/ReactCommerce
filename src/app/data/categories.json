@@ -4,14 +4,42 @@
             "id": 3,
             "name": "Phones",
             "slug": "/store/phones",
-            "icon": "bi bi-telephone-fill",
+            "icon": "bi bi-telephone",
             "featured": true
         },
         {
             "id": 4,
             "name": "Computers",
             "slug": "/store/computers",
-            "icon": "bi bi-pc-display",
+            "icon": "bi bi-laptop",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "name": "Printers",
+            "slug": "/store/printers",
+            "icon": "bi bi-printer",
+            "featured": true
+        },
+        {
+            "id": 6,
+            "name": "Monitors",
+            "slug": "/store/monitors",
+            "icon": "bi bi-display",
+            "featured": true
+        },
+        {
+            "id": 7,
+            "name": "Cameras",
+            "slug": "/store/cameras",
+            "icon": "bi bi-camera",
+            "featured": true
+        },
+        {
+            "id": 8,
+            "name": "Accessories",
+            "slug": "/store/accessories",
+            "icon": "bi bi-controller",
             "featured": true
         }
     ],
