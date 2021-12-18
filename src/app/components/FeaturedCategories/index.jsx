@@ -11,13 +11,14 @@ const FeaturedCategories = () => {
             <Row xs={1} md={6} className='mt-4'>
                 {categories.map((category, idx) => (
                     <Col key={idx}>
-                        <Card>
-                            <Card.Body className='text-center'>
-                                <i className={category.icon} style={{ fontSize: '24px' }}></i>
-                                <Card.Title className="mt-2" style={{ fontSize: '14px' }}>{category.name}</Card.Title>
-                                <Link to={category.slug}>Visit</Link>
-                            </Card.Body>
-                        </Card>
+                        <Link to={category.slug}>
+                            <Card>
+                                <Card.Body className='text-center'>
+                                    <i className={category.icon} style={{ fontSize: '24px' }}></i>
+                                    <Card.Title className="mt-2" style={{ fontSize: '14px' }}>{category.name}</Card.Title>
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </Col>
                 ))}
             </Row>
