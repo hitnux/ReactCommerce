@@ -3,11 +3,11 @@ import { Carousel } from 'react-bootstrap';
 const Slider = ({ slides }) => {
     return (
         <Carousel variant="dark">
-            {slides.map((slide) => (
-                <Carousel.Item>
+            {slides.map((slide, idx) => (
+                <Carousel.Item key={idx}>
                     <picture>
-                        <source media="(max-width:1024px)" srcset={slide.images.mobile} />
-                        <source media="(min-width:1025px)" srcset={slide.images.desktop} />
+                        <source media="(max-width:1024px)" srcSet={slide.images.mobile} />
+                        <source media="(min-width:1025px)" srcSet={slide.images.desktop} />
                         <img
                             className="d-block w-100"
                             src={slide.images.desktop}
