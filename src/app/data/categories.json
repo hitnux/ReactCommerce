@@ -4,26 +4,14 @@
             "id": 3,
             "name": "Phones",
             "slug": "/store/phones",
-            "images": [
-                {
-                    "id": 107,
-                    "path": "https://via.placeholder.com/32",
-                    "isDefault": true
-                }
-            ],
+            "icon": "bi bi-telephone-fill",
             "featured": true
         },
         {
             "id": 4,
             "name": "Computers",
             "slug": "/store/computers",
-            "images": [
-                {
-                    "id": 107,
-                    "path": "https://via.placeholder.com/32",
-                    "isDefault": true
-                }
-            ],
+            "icon": "bi bi-pc-display",
             "featured": true
         }
     ],
