@@ -11,7 +11,7 @@ const FeaturedCategories = () => {
             <Row xs={1} md={6} className='mt-4'>
                 {categories.map((category, idx) => (
                     <Col key={idx}>
-                        <Link to={category.slug}>
+                        <Link to={category.slug} style={{ color: 'black', textDecoration: 'none' }}>
                             <Card>
                                 <Card.Body className='text-center'>
                                     <i className={category.icon} style={{ fontSize: '24px' }}></i>
