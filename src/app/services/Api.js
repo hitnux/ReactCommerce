@@ -19,7 +19,8 @@ export const getProducts = ({ categoryId }) => {
     return null
 }
 export const findProduct = (slug) => {
-    const products = getProducts();
+    const products = getProducts({});
+    console.log(products)
     if (products)
         return products.find(p => p.slug.endsWith(slug));
     return null

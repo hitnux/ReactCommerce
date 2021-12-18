@@ -10,7 +10,7 @@ const ProductList = () => {
     const categories = useSelector((state) => state.categories.list)
     const category = categories.find(c => c.slug.endsWith(slug));
 
-    const { isLoading, error, data } = useQuery("products", () => getProducts({ categoryId: category.id }));
+    const { isLoading, error, data } = useQuery(`${category.name}`, () => getProducts({ categoryId: category.id }));
 
     if (isLoading) return 'Loading...'
 
