@@ -18,6 +18,13 @@ const HeaderMenu = () => {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#">Sign in</Nav.Link>
+            <Nav.Link href="#">Cart</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
