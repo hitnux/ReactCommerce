@@ -5,8 +5,8 @@
             "name": "Banner 1",
             "content": "First Banner",
             "images": {
-                "desktop": "https://via.placeholder.com/1200x500",
-                "mobile": "https://via.placeholder.com/500x300"
+                "desktop": "https://via.placeholder.com/1200x515",
+                "mobile": "https://via.placeholder.com/500x215"
             },
             "link": "/"
         },
@@ -15,8 +15,8 @@
             "name": "Banner 2",
             "content": "Second Banner",
             "images": {
-                "desktop": "https://via.placeholder.com/1200x500",
-                "mobile": "https://via.placeholder.com/500x300"
+                "desktop": "https://via.placeholder.com/1200x515",
+                "mobile": "https://via.placeholder.com/500x215"
             },
             "link": "/"
         },
@@ -25,8 +25,8 @@
             "name": "Banner 3",
             "content": "Third Banner",
             "images": {
-                "desktop": "https://via.placeholder.com/1200x500",
-                "mobile": "https://via.placeholder.com/500x300"
+                "desktop": "https://via.placeholder.com/1200x515",
+                "mobile": "https://via.placeholder.com/500x215"
             },
             "link": "/"
         }

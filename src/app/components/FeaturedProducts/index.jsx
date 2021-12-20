@@ -7,7 +7,9 @@ const FeaturedProducts = ({ count }) => {
             {Array.from({ length: count }).map((_, idx) => (
                 <Col className="mt-md-0" key={idx}>
                     <Card>
-                        <Card.Img variant="top" src="https://via.placeholder.com/500" />
+                        <div className="ratio ratio-1x1">
+                            <Card.Img variant="top" src="https://via.placeholder.com/500" />
+                        </div>
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
                             <Card.Text>

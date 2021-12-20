@@ -7,7 +7,9 @@ const ProductCard = ({ product }) => {
     return (
         <>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={defaultImage} />
+                <div className="ratio ratio-1x1">
+                    <Card.Img variant="top" src={defaultImage} />
+                </div>
                 <Card.Body>
                     <Card.Title>{product.name}</Card.Title>
                     <Card.Text>

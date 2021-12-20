@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { findProduct } from "../services/Api";
 
@@ -7,7 +8,9 @@ const ProductDetail = () => {
 
     return (
         <>
-            {product.name}
+            <Container>
+                {product.name}
+            </Container>
         </>
     )
 }
